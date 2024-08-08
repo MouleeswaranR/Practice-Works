@@ -5,12 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Music Player</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/ce442ac0ec.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="container">
-    <div class="music-player"></div>
+    <div class="music-player">
+      <img src="assests/468-thumbnail.png" class="song" alt="song-image">
+      <h1>Despacito</h1>
+      <p>Song name</p>
+      <audio  id="song">
+        <source src="assests/Go! - NEFFEX.mp3" type="audio/mpeg">
+      </audio>
+      <input type="range" value="0" title="song" id="progress">
+      <div class="controls">
+        <div><i class="fa-solid fa-forward"></i></div>
+        <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+        <div><i class="fa-solid fa-backward"></i></div>
+      </div>
+
+    </div>
   </div>
-  <img src="assests/468-thumbnail.png" class="song" alt="song-image">
   
+  <script src="index.js"></script>
 </body>
 </html>
