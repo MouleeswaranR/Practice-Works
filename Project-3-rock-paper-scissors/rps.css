@@ -1,0 +1,45 @@
+body{
+  background-color:rgb(25,25,25) ;
+}
+.title{
+  font-family:arial;
+  font-size:30px;
+  color:white;
+  font-weight:bold;
+}
+.rock,.paper,.scissors{
+  height:120px;
+  width:120px;
+  margin-right:10px;
+  margin-bottom:36px;
+  padding:10px ;
+  background-color: transparent;
+  border:3px solid white;
+  border-radius: 60px;
+}
+.icon{
+  height:50px;
+  width:50px;
+}
+.result{
+  color:white;
+  font:bold 25px Arial;
+  margin-bottom:40px;
+}
+.moves{
+  font-size:125x;
+  color:white;
+  font-family:ARial;
+  margin-bottom:60px;
+}
+.score{
+  color:white;
+  font-family:arial;
+
+}
+.reset-button{
+   font-family:ARial;
+   font-size:15px;
+   padding:8px 15px;
+   border:none;
+}
